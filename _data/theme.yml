@@ -1,0 +1,10 @@
+navigation_pages:
+  - about.md
+  - cv.md
+
+google_fonts:
+  - name: "Fira Sans"
+    weights: "300,300i,400,400i"
+  - name: "Fira Sans Condensed"
+
+skin: steel

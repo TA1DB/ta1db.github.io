@@ -28,10 +28,25 @@ twitter_username: mtologlu
 github_username: TA1DB
 
 # Build settings
-theme: minima
+# theme: minima
+# theme: minimal-mistakes-jekyll
+theme: jekyll-theme-basically-basic
+# theme: "jekyll-theme-so-simple"
 plugins:
   - jekyll-feed
+  - jekyll-polyglot
+ # - jekyll-include-cache # this is required for minimal-mistakes
 
+languages: ["en", "tr"]
+default_lang: "en"
+exclude_from_localization: ["assets/css", "assets/img"]
+parallel_localization: false
+
+search: true
+author: Murat Tologlu, TA1DB
+
+sass:
+  sourcemap: never
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -39,7 +54,9 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
+exclude:
+  - postalar/
+  - denemeler/
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
