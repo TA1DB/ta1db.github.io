@@ -30,7 +30,8 @@ github_username: TA1DB
 # Build settings
 # theme: minima
 # theme: minimal-mistakes-jekyll
-theme: jekyll-theme-basically-basic
+# theme: jekyll-theme-basically-basic # github pages metodunda remote theme kullanıyoruz
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 # theme: "jekyll-theme-so-simple"
 plugins:
   - jekyll-feed
