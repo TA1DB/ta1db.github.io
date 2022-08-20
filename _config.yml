@@ -58,6 +58,7 @@ sass:
 exclude:
   - postalar/
   - denemeler/
+
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
